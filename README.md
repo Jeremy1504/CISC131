@@ -1,7 +1,7 @@
 # CISC131
 CISC131 Class Demo Examples
 
-This is a codespace repo for CISC131 class. 
+This is a Codespace repo for CISC131 class. 
 
 The repo includes the source code:
 - Class Examples
