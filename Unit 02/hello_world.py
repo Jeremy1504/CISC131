@@ -1,4 +1,5 @@
-# this is a comments
+# this is a comment
+# next line will print a text string
 print('Hello World')
 # another print()
 print('CISC 131!')
