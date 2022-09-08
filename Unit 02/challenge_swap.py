@@ -1,5 +1,5 @@
 x = 100
-y = 'hello world'
+y = 500
 print('x = ', x)
 print('y = ', y)
 # write a piece of code here that swap the values in x and y
