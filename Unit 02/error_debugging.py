@@ -2,7 +2,6 @@
 print(5)
 print 5
 
-
 # NameError
 a = 1
 b = 2

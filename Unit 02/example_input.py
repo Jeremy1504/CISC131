@@ -6,6 +6,6 @@ user_text_2 = input("Please Enter the second sentence:")
 print(len(user_text_1))
 print(len(user_text_2))
 
-# print combined text strings
+# print concatenated text strings
 print(user_text_1 + user_text_2)
 

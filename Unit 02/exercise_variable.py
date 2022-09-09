@@ -1,4 +1,4 @@
-# This program demonstrates a variable.
+# This program demonstrates a text-string.
 val = 100
 print('The value is', 'val')
 
