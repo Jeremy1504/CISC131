@@ -14,4 +14,4 @@ days_remain = days % 365 % 7
 # print the final results
 print('Year: ', years)
 print('Week: ', weeks)
-print('Year: ', days_remain)
+print('Day: ', days_remain)
