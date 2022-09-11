@@ -2,7 +2,7 @@ import csv
 
 data = []
 
-with open('ford_escort.csv','r') as fp:
+with open('data/ford_escort.csv','r') as fp:
     # csv.reader() method
     csv_reader = csv.reader(fp)
 
