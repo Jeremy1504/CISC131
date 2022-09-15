@@ -1,6 +1,27 @@
 ######################################################
 # Lab 3-2
 ######################################################
+# if-elif-else
+a = 10
+b = 20
+c = 3
+
+if a >= 100:
+    b = a + 100
+elif a >= 50:
+    b = 200
+elif a < 0:
+    b = 100 -a
+
+if (b**2 - 4*a*c) > 0:
+    print('Two distint real roots')
+elif (b**2 - 4*a*c) == 0:
+    print('One real root')
+else:
+    print('No real root')
+
+######################################################
+# Compound Boolean Expressions
 # you should able to answer the results by hand
 a = 10
 b = 20
@@ -16,7 +37,7 @@ print(((b - c) < a) and (b % c == b) or (c//a <= a))
 
 print(((b - c) == (a - b) ) or (b % c == b % a) or (c//a <= c//b))
 
-
+######################################################
 x = 42
 if x >= 0 and x < 100:
     print()
@@ -32,6 +53,25 @@ if (x % 5 == 0 and x < 200) or (x % 7 == 0 and x >= 40):
 
 if x % 400 == 0 and x % 100 != 0:
     print()
+
+######################################################
+# Coding Lab: Seconds Conversion
+######################################################
+
+# enter seconds as input
+seconds = int(input("Please enter a number of seconds: "))
+
+# check three use cases
+# better code has the order from the most restricted condition 
+# to less restricted conditions
+# use only one variable
+
+if seconds >= 86400:
+    print(seconds // 86400, " days")
+elif seconds >= 3600:
+    print(seconds // 3600, " hours")
+elif seconds >= 60:
+    print(seconds // 60, " minutes")
 
 ######################################################
 # Coding Lab: Grade Conversions
@@ -58,6 +98,9 @@ elif grade >= 60 and grade < 70:
     print('D')
 else:
     print('F')
+
+
+
 
 # method 2: without using compound statements
 # if grade >= 90:

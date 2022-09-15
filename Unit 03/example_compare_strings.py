@@ -7,4 +7,4 @@ else:
 if 'Mary' == 'Mark':
     print('Equal')
 else:
-    print('Not euqal')
+    print('Not equal')
