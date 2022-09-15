@@ -1,4 +1,4 @@
-temperature = 60
+temperature = 30
 if temperature >= 60:
     print('good weather')
     print('hello world')
