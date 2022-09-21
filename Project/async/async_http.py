@@ -7,6 +7,9 @@ import time
 import aiohttp
 import asyncio
 
+# disable windows event warning
+asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+
 ############################
 # regular appraoch, request api
 # slow
