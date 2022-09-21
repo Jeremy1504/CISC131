@@ -48,9 +48,7 @@ async def test_2():
                 pokemon = await resp.json()
                 # also print json value on terminal
                 print(pokemon['name'])
-    
-    # optional, close session
-    await session.close()
+
 
 # run with asyncio.run()
 asyncio.run(test_2())
@@ -92,8 +90,6 @@ async def test_3():
         # just print the content
         for pokemon in original_pokemon:
             print(pokemon)
-    # optional
-    await session.close()
 
 # asyncio.run()
 asyncio.run(test_3())
