@@ -13,10 +13,17 @@ Using pip package to install.
 `pip install aiofiles`
 
 ## Code Examples
-- `async_http.py`: Fetch Pokeman API using HTTP GET, read JSON files and print the data on terminal
-- `async_io.py`: Fetch Pokeman API using HTTP GET, read JSON files and save the JSON data locally.
+- `async_http.py`: 
+	+ fetch Pokeman API using HTTP GET
+	+ read JSON files 
+	+ print the data on terminal
+	+ compare time on three approaches
+- `async_io.py`: 
+	+ fetch Pokeman API using HTTP GET
+	+ read JSON files
+	+ save the JSON data locally
 
 
 ## Reference
-https://docs.aiohttp.org/en/stable/
-https://www.twilio.com/blog/asynchronous-http-requests-in-python-with-aiohttp
+- https://docs.aiohttp.org/en/stable/
+- https://www.twilio.com/blog/asynchronous-http-requests-in-python-with-aiohttp
