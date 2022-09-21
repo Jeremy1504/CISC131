@@ -66,7 +66,7 @@ start_time = time.time()
 
 # a function to return api data
 async def get_pokemon(session, url):
-    # http get
+    # HTTP GET
     async with session.get(url) as resp:
         # await and fetch json
         pokemon = await resp.json()
@@ -75,18 +75,26 @@ async def get_pokemon(session, url):
 
 
 async def test_3():
+
     # open a client session
     async with aiohttp.ClientSession() as session:
         # use a list to store tasks
         tasks = []
+
         # fetch pokeapi 1-150
         for number in range(1, 151):
             url = f'https://pokeapi.co/api/v2/pokemon/{number}'
-            # use asyncio.ensure_future to fetch data and assign async task
-            tasks.append(asyncio.ensure_future(get_pokemon(session, url)))
-        
-        # asyncio.gather async tasks into a list
+
+            # asyncio.create_task() was introduced in Python 3.7. 
+            # fetch data and assign async task
+            tasks.append(asyncio.create_task(get_pokemon(session, url)))
+            # In Python 3.6 or lower, use asyncio.ensure_future() in place of create_task().
+            # tasks.append(asyncio.ensure_future(get_pokemon(session, url)))
+
+        # gather() is meant to neatly put a collection of coroutines (futures) into a single future.
+        # asyncio.gather() waits on the entire result set of the Futures or coroutines is done
         original_pokemon = await asyncio.gather(*tasks)
+
         # just print the content
         for pokemon in original_pokemon:
             print(pokemon)

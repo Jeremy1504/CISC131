@@ -11,7 +11,7 @@ asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 start_time = time.time()
 
-async def test_2():
+async def api_test():
     # A HTTP session contains a connection pool
     async with aiohttp.ClientSession() as session:
         # load 1-150 api requests
@@ -32,7 +32,7 @@ async def test_2():
         await f.write('\n'.join(moves))
         
 # run with asyncio.run()
-asyncio.run(test_2())
+asyncio.run(api_test())
 # calculate time spent
 print("--- %s seconds ---" % (time.time() - start_time))
 print()
