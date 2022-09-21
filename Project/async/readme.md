@@ -12,6 +12,8 @@ Using pip package manager to install.
 - `pip install aiohttp`
 - `pip install aiofiles`
 
+Test code in Python 3.10
+
 ## Code Examples
 - `async_http.py`: 
 	+ fetch Pokeman API using HTTP GET
