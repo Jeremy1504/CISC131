@@ -6,11 +6,11 @@ This is only a simple demo for how to use `asyncio` library.
 `asyncio` is used as a foundation for multiple Python asynchronous frameworks that provide high-performance network and web-servers, database connection libraries, distributed task queues, etc.
 
 ## Installation
-Using pip package to install.
+Using pip package manager to install.
 
-`pip install asyncio`
-`pip install aiohttp`
-`pip install aiofiles`
+- `pip install asyncio`
+- `pip install aiohttp`
+- `pip install aiofiles`
 
 ## Code Examples
 - `async_http.py`: 
