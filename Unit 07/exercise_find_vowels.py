@@ -8,3 +8,4 @@ def findVowels(s):
     return count
 
 print(findVowels('Halloween'))
+print(findVowels('Thanksgivings'))
