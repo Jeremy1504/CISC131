@@ -3,9 +3,9 @@ my_string = 'Hello World'
 try:
     print(my_string)
 
-    num = int(my_string)
-    print(my_string + 100)
-    num = 1/0
+    # num = int(my_string)
+    # print(my_string + 100)
+    # num = 1/0
     print(total)
     
 except ValueError:
