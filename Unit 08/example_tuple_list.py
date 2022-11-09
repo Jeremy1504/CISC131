@@ -1,10 +1,18 @@
-lst = [10, 20, 'Hello', [30, 40]]
-print(lst)
+sequence = (10, 20, 'Hello', [30, 40])
+print(sequence)
+print(type(sequence))
 
-tuples = tuple(lst)
-print(tuples)
+try:
+    sequence[2] = 100
+except TypeError as err: # catch TypeError
+    print(err)
 
-tuples[3][1] = 100
+sequence = list(sequence)
+print(sequence)
+print(type(sequence))
 
-print(tuples)
-print(lst)
+sequence[2] = 100 # no error
+
+sequence = tuple(sequence)
+print(sequence)
+print(type(sequence))
