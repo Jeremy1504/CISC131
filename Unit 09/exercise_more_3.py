@@ -21,7 +21,7 @@ def compareAnswers(file1, file2):
     
     return count
 
-print(compareAnswers('demo85_1.txt', 'demo85_2.txt'))
+print(compareAnswers('Unit 09/demo85_1.txt', 'Unit 09/demo85_2.txt'))
 
 # not using list, use obj
 def compare_file(file1, file2):
@@ -39,4 +39,4 @@ def compare_file(file1, file2):
     
     return count
 
-print(compare_file('demo85_1.txt', 'demo85_2.txt'))
+print(compare_file('Unit 09/demo85_1.txt', 'Unit 09/demo85_2.txt'))

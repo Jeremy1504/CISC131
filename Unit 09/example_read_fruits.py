@@ -30,4 +30,4 @@ def read_fruits(filename):
     print(f'Number of peach: {count_peach}')
 
 # call the function and pass the filename as the input argument
-read_fruits('fruits.txt')
+read_fruits('Unit 09/fruits.txt')

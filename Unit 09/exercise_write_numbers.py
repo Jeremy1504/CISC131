@@ -8,17 +8,17 @@ for i in range(10):
 print(lst)
 
 # write and separate by comma
-fp = open('num_test.txt', 'w')
+fp = open('Unit 09/num_test.txt', 'w')
 fp.write(','.join(lst))
 fp.close()
 
 # write and separate by white space
-fp = open('num_test.txt', 'w')
+fp = open('Unit 09/num_test.txt', 'w')
 fp.write(' '.join(lst))
 fp.close()
 
 # write with appending mode and separate by white space
-fp = open('num_test.txt', 'a')
+fp = open('Unit 09/num_test.txt', 'a')
 fp.write('\n')
 fp.write(' '.join(lst))
 fp.close()

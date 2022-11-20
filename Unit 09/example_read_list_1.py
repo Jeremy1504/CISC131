@@ -1,7 +1,7 @@
 myList = []
 
 #Open OutputFile.txt in read mode
-inputFile = open("test.txt", "r")    
+inputFile = open("Unit 09/test.txt", "r")    
 
 #For each line in the file
 for line in inputFile:  

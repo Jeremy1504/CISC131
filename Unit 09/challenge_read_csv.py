@@ -1,6 +1,6 @@
 import csv
 
-filename = "ford_escort.csv"
+filename = "Unit 09/data/ford_escort.csv"
 
 data = []
 
