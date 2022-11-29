@@ -1,5 +1,5 @@
 # tkinter works on Windows OS by default
-# Mac OS user needs to install this package using `pip3 install tk`
+# Mac OS user might need to install this package using `pip3 install tk`
 # Linux OS user needs to install using `apt-get install python-tk`
 
 import tkinter

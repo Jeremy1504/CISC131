@@ -1,8 +1,6 @@
 import tkinter
 import tkinter.messagebox # import messagebox moudule
 
-
-
 def main():
     window = tkinter.Tk()
 
@@ -12,7 +10,6 @@ def main():
 
     # a button will trigger another function
     button = tkinter.Button(window, text = 'Click Me!', command = print_message)
-    
     button.pack()
 
     tkinter.mainloop()
