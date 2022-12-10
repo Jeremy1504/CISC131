@@ -7,7 +7,7 @@ The repo includes the source code (Python 3) in my class:
 - Examples
 - Exercises (with Answers)
 - Challenges (with Answers)
-- PL Lab Exercise (upload weekly)
+- PL Lab Exercise (Good for improve your code skills)
 
 ## Outline
 The repo hosts on Codespace and both instructor and students can access to the code.
