@@ -14,7 +14,6 @@ The repo hosts on Codespace and both instructor and students can access to the c
 - `CISC131`: Unit 01-10
 - `CISC505`: Unit 01-09, Unit 11-12
 
-![Discord Shield](https://discordapp.com/api/guilds/1030160230396477590/widget.png?style=shield)
 
 ## Test Environment
 - `Python`: `3.10`
