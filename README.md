@@ -1,25 +1,15 @@
 # CISC131
-
-## Goal
-This is a Codespace repo for `CISC131` and `CISC505` class.
-
-The repo includes the source code (Python 3) in my class:
-- Examples
-- Exercises (with Answers)
-- Challenges (with Answers)
-- PL Lab Solution
+This `Codespace` repository serves as a resource for the `CISC131` and `CISC505` classes, and includes a variety of source code written in Python 3. The repository includes examples, exercises with answers, challenges with answers, a solution for the PL Lab, and an outline. Both instructors and students have access to the code through the Codespace platform.
 
 ## Outline
-The repo hosts on Codespace and both instructor and students can access to the code.
-- `CISC131`: Unit 01-10
-- `CISC505`: Unit 01-09, Unit 11-12
-
+- `CISC131`: Unit 01-09, Unit 10 (GUI)
+- `CISC505`: Unit 01-09, Unit 11 (Dictionaries and Sets), Unit 12(OOP)
 
 ## Test Environment
 - `Python`: `3.10`
 
-2022 - 2023
+Since 2022
 v. 1.1
 
-Dr. Tianyu Wang
+Tianyu Wang, PhD
 
