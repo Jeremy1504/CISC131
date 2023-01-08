@@ -11,5 +11,5 @@ This `Codespace` repository serves as a resource for the `CISC131` and `CISC505`
 Since 2022
 v. 1.1
 
-Tianyu Wang, PhD
+T. Wang, PhD
 
